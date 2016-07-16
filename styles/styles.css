@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.header {
+    height: 20vh width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    ;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+#titleName {
+    padding-top: 10px;
+}
+.links {
+    float: right;
+}
+.links {
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row
+}
+.main-info {
+    height: 75vh;
+    width: 75vw;
+    position: relative;
+    top: 67px;
+    left: 150px;
+    background: lightblue;
+}
+.main-info img {
+    /*max-width: 50%;
+  max-height: 25%;*/
+    position: absolute;
+    top: 90px;
+    right: 100px;
+}
+.my-info {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.my-portfolio {
+    height: 75vh;
+    width: 75vw;
+    position: relative;
+    top: 70px;
+    left: 150px;
+    background: lightblue;
+}

@@ -1,16 +1,22 @@
 body {
     background-color: black;
 }
+/*NavBar Info*/
+
 .header {
-    height: 20vh width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    ;
-    flex-wrap: wrap;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
     background-color: gray;
+
+}
+.title{
+  height: 10vh;
+  position: absolute;
+  left: 10px;
 }
 #titleName {
-    padding-top: 10px;
+    text-align: center;
 }
 .links {
     float: right;
@@ -18,36 +24,45 @@ body {
 .links {
     width: 25vw;
     height: 10vh;
+    position: absolute;
+    right: 20px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row
+
 }
+/* Beginning of About Section */
 .main-info {
     height: 75vh;
     width: 75vw;
     position: relative;
-    top: 67px;
     left: 150px;
     background: lightblue;
 }
 .main-info img {
-    /*max-width: 50%;
-  max-height: 25%;*/
+    max-width: 75em;
+    max-height: 75em;
     position: absolute;
-    top: 90px;
+    top: 40px;
     right: 100px;
 }
 .my-info {
     position: absolute;
-    top: 130px;
+    top: 110px;
     left: 80px;
+}
+.about-title{
+  height: 10vh;
+  width: 20vw;
+  position: absolute;
+  top: 30px;
+  left: 40px;
 }
 
 .my-portfolio {
     height: 75vh;
     width: 75vw;
     position: relative;
-    top: 70px;
+    top: 5px;
     left: 150px;
     background: lightblue;
 }

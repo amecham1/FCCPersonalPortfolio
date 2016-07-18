@@ -1,16 +1,18 @@
 body {
     background-color: black;
+    width: auto;
+    height: auto;
 }
 /*NavBar Info*/
 
 .header {
-    height: 10vh;
-    width: 100vw;
+    height: 7rem;
+    width: 100%;
     position: fixed;
     background-color: gray;
 }
 #titleName {
-  width: 30vh;
+  width: 20%;
   float: left;
   text-align: center;
 }
@@ -34,16 +36,16 @@ body {
 
 /* Beginning of About Section */
 .main-info {
-    height: 60vh;
-    width: 75vw;
+    height: 50rem;
+    width: 90rem;
     position: relative;
-    top:70px;
-    left: 150px;
+    top: 7rem;
+    left: 22rem;
     background: lightblue;
 }
 .main-info img {
-    max-width: 75em;
-    max-height: 75em;
+    max-width: 75rem;
+    max-height: 75rem;
     position:absolute;
     top: 40px;
     right: 100px;
@@ -61,55 +63,55 @@ body {
   left: 40px;
 }
 
-/*.my-portfolio {
-    height: 75%;
-    width: 75%;
+.my-portfolio {
+    height: 70rem;
+    width: 90rem;
     position: relative;
-    top: 380px;
-    left: 150px;
-    background: lightblue;
-}*/
-/*.portfolio-title{
-    height: 10vh;
-    width: 10vw;
+    top: 7rem;
+    left: 22rem;
+    background: lightgreen;
+}
+.portfolio-title{
+
+    width: 15rem;
     position: absolute;
     top: 10px;
     left: 400px;
 }
 
 .port-example{
-  width: 40vw;
-  height: 40vh;
+  width: 30rem;
+  height: 20rem;
   position: absolute;
-  /*background-color: darkgray;*/
-/*}
+  background-color: darkgray;
+}
 #port1{
-  top: 100px;
-  left: 60px;
+  top: 14rem;
+  left: 10rem;
 }
 #port1 img{
   max-width: 100%;
   max-height: 100%;
 }
 #port2{
-  top: 100px;
-  right: 30px;
+  top: 14rem;
+  right: 10rem;
 }
 #port2 img{
   max-width: 100%;
   max-height: 100%;
 }
 #port3{
-  bottom: 100px;
-  left: 60px;
+  bottom: 11rem;
+  left: 10rem;
 }
 #port3 img{
   max-width: 100%;
   max-height: 100%;
 }
 #port4{
-  bottom: 100px;
-  right: 30px;
+  bottom: 11rem;
+  right: 10rem;
 }
 #port4 img{
   max-width: 100%;

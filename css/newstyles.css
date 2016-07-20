@@ -1,0 +1,62 @@
+
+/*Beginning of NavBar*/
+.header {
+    width: 100vw;
+    position: fixed;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+#titleName {
+    width: 20%;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.btns{
+  width: 50vh;
+  float: right;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Beginning of About*/
+.main{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 66px;
+  display: flex;
+  justify-content: center;
+}
+.main-info{
+  width: 75vw;
+  height: 90vh;
+  background-color: lightgreen;
+  border-bottom: 2px black solid;
+  position: relative;
+
+}
+.main-info h3{
+  position: absolute;
+  width: 25vw;
+  top: 50px;
+  left: 250px;
+  font-size: 50px;
+  color: darkorange;
+}
+.main-text{
+  position: absolute;
+  width: 40vw;
+  bottom: 180px;
+  left: 100px;
+}
+
+.main-info img{
+  position: absolute;
+  right: 100px;
+  top: 160px;
+
+}

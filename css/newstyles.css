@@ -1,18 +1,34 @@
 
 /*Beginning of NavBar*/
+*{
+  font-family: Georgia, "Times New Roman", sans-serif;
+}
+body{
+  background-color: #333333;
+}
 
 .header {
     width: 100vw;
     position: fixed;
-    background-color: gray;
+    background-color: #F2F1ED;
     display: flex;
     align-items: center;
     justify-content: space-between;;
 }
+.header a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header button{
+  background-color:#333333;
+}
 #titleName {
-    width: 20%;
-    margin: 20px 0 20px 0;
-    text-align: center;
+    width: 50%;
+    margin: 20px 0 10px 0;
+    padding-left: 20px;
+    font-size: 50px;
+    color: #333333;
 }
 
 .btns{
@@ -38,8 +54,8 @@
 .main-info{
   width: 75vw;
   height: 90vh;
-  background-color: lightgreen;
-  border-bottom: 2px black solid;
+  background-color:#D3D3D3;
+  border-bottom: 4px #FF5F57 solid;
   position: relative;
 
 }
@@ -48,13 +64,19 @@
   text-align: center;
   height: 10vh;
   font-size: 50px;
-  color: darkorange;
+  color: #FF5F57;
+  padding-top: 30px;
 }
 .main-text{
   position: absolute;
   width: 40vw;
-  bottom: 180px;
+  bottom: 140px;
   left: 100px;
+}
+.main-text p{
+  padding-right: 50px;
+  text-align: center;
+
 }
 
 .main-info img{
@@ -69,8 +91,8 @@
 .my-portfolio{
   width: 75vw;
   height: 90vh;
-  background-color: lightblue;
-  border-bottom: 2px black solid;
+  background-color: #F2F1ED;
+  border-bottom: 4px #FF5F57 solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -82,7 +104,7 @@
   text-align: center;
   height: 10vh;
   font-size: 50px;
-  color: darkorange;
+  color: #333333 ;
 }
 .port-example{
   width: 30vw;
@@ -97,6 +119,41 @@
 
 .contact-info{
   width: 75vw;
-  height: 60vh;
-  background-color: lightgray;
+  height: 25vh;
+  background-color: #D3D3D3;
 }
+.contact-header h3{
+  text-align: center;
+  font-size: 50px;
+  color: #FF5F57;
+}
+.contact-name{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-name li{
+  font-size: 20px;
+  list-style: none;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+#eaddress a{
+  text-decoration: none;
+  color: #333333;
+}
+#eaddress a:hover{
+  text-decoration: none;
+  color:#FF5F57 ;
+}
+
+.icon img{
+  width: 5vw;
+  height: 7vh;
+  float: right;
+}
+
+/* End of Contact Section */

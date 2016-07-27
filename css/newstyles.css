@@ -90,7 +90,7 @@ body{
 
 .my-portfolio{
   width: 75vw;
-  height: 90vh;
+  height: 100vh;
   background-color: #F2F1ED;
   border-bottom: 4px #FF5F57 solid;
   display: flex;
@@ -102,9 +102,9 @@ body{
 .my-portfolio h3{
   width: 100vw;
   text-align: center;
-  height: 10vh;
+  padding-top: 20px;
   font-size: 50px;
-  color: #333333 ;
+  color: #FF5F57 ;
 }
 .port-example{
   width: 30vw;
@@ -157,3 +157,10 @@ body{
 }
 
 /* End of Contact Section */
+
+#About:target{
+  padding-top: 6vh;
+}
+#Portfolio:target{
+  padding-top: 6vh;
+}
